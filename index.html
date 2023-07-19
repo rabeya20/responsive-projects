@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Five</title>
+    <style>
+        
+        .container {
+            display: flex;
+           
+            justify-content: space-around;
+            align-items: center;
+            margin-left:20px ;
+            
+        }
+        .second-container {
+            display: flex;
+           flex-direction: row-reverse;
+            justify-content: space-around;
+            align-items: center;
+            margin-left:20px ;
+        }
+        #img {
+            height: 270px ;
+        }
+        .text {
+               padding: 0 20px;
+        }
+        @media screen and (max-width: 576px) {
+            .main-container {
+                flex-direction: column;
+            }
+            .container {
+                flex-direction: column;
+
+            }
+            .second-container {
+                flex-direction: column;
+
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="img"><img id="img" src="download (2).jpeg" alt=""></div>
+            <div class="text">
+                <h2>We value your privacy</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nobis optio repellendus impedit ratione itaque reiciendis. Qui iusto aspernatur odio aliquam voluptate quasi laboriosam sunt, maxime veritatis, rem nihil Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores obcaecati sint voluptatem nihil adipisci corporis error ratione quae ipsum totam sed vel, reiciendis debitis? Et enim at ipsa esse aut! </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, porro doloribus. Deserunt aspernatur, officiis quam beatae eveniet vel enim et minima ab perferendis placeat eos molestiae nesciunt commodi animi veniam.
+                Laboriosam maxime ipsam unde ex nobis, ipsum, nulla quis quidem officia impedit sit quae odio et quas harum inventore iusto architecto at! Reprehenderit officiis voluptas adipisci quo architecto voluptatum ad.</p>
+            </div>
+            </div>
+        <div class="second-container">
+            <div class="img"><img id="img" src="download (3).jpeg" alt=""></div>
+            <div class="text">
+                <h2>Ipsum dolor sit amet.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nobis optio repellendus impedit ratione itaque reiciendis. Qui iusto aspernatur odio aliquam voluptate quasi laboriosam sunt, maxime veritatis, rem nihil Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores obcaecati sint voluptatem nihil adipisci corporis error ratione quae ipsum totam sed vel, reiciendis debitis? Et enim at ipsa esse aut! </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, porro doloribus. Deserunt aspernatur, officiis quam beatae eveniet vel enim et minima ab perferendis placeat eos molestiae nesciunt commodi animi veniam.
+                Laboriosam maxime ipsam unde ex nobis, ipsum, nulla quis quidem officia impedit sit quae odio et quas harum inventore iusto architecto at! Reprehenderit officiis voluptas adipisci quo architecto voluptatum ad.</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
